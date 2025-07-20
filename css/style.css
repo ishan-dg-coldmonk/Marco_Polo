@@ -5,6 +5,10 @@
   --dark: #14141f;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 
 .button1 {
   background: #08b1c4;
@@ -99,15 +103,6 @@ font-family: 'Poppins', sans-serif; */
   color: var(--dark) !important;
 }
 
-
-.navbar-light .navbar-brand img {
-  max-height: 60px;
-  transition: 0.5s;
-}
-
-.sticky-top.navbar-light .navbar-brand img {
-  max-height: 45px;
-}
 
 .navbar-light .navbar-nav .nav-link,
   .sticky-top.navbar-light .navbar-nav .nav-link {
